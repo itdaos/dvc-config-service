@@ -1,0 +1,7 @@
+server:
+  port: 9060
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${DISCOVERY_HOST}:8761/eureka/
